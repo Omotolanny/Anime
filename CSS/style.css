@@ -1,0 +1,116 @@
+/* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    margin: 100px;
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+    color: hsl(219, 9%, 45%);
+  }
+
+  li{
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .navigations{
+    display: flex;
+    margin: 30px;
+  }
+
+  .nav-images{
+    margin-left: 550px;
+    display: flex;
+    gap: 30px;
+  }
+
+  .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 10px;
+  }
+
+  .image-product-1{
+    width: 580px;
+    border-radius: 30px;
+    margin-left: 25px;
+  }
+
+  .products-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 30px;
+  }
+
+  .products-images :first-child{
+    border: 2px solid red;
+    opacity: 0.5;
+  }
+
+  .products-images img{
+    border-radius: 10px;
+    width: 110px;
+  }
+
+  .products-prices{
+    width: 400px;
+    padding-top: 80px;
+  }
+
+  h3{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+
+  h1{
+    margin-top: 10px;
+  }
+
+  h4{
+    margin-top: 30px;
+    line-height: 1.5rem;
+    color: hsl(219, 9%, 45%);
+  }
+
+  h2{
+    font-weight: 100;
+    text-decoration: line-through;
+  }
+
+  .price{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+
+  .price button{
+    width: 45px;
+    color: hsl(26, 100%, 55%);
+    border: none;
+    font-size: large;
+    padding: 5px;
+  }
+
+  .buttons .button-2{
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(26, 100%, 55%);
+  }
